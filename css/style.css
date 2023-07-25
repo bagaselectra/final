@@ -122,7 +122,8 @@ body {
 .about,
 .education,
 .skill,
-.interest {
+.interest,
+.award {
   padding: 8rem 7% 1.4rem;
 }
 
@@ -130,7 +131,8 @@ body {
 .education h2,
 .skill h2,
 .interest h2,
-.experience h2 {
+.experience h2,
+.award h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -140,7 +142,8 @@ body {
 .education h2 span,
 .skill h2 span,
 .interest h2 span,
-.experience h2 span {
+.experience h2 span,
+.award h2 span {
   color: var(--primary);
 }
 
@@ -175,17 +178,18 @@ body {
   text-align: left;
 }
 
-/* Menu Section */
 .education h2,
 .skill h2,
 .interest h2,
-.experience h2 {
+.experience h2,
+.award h2 {
   margin-bottom: 1rem;
 }
 .education p,
 .skill p,
 .interest p,
-.experience p {
+.experience p,
+.award p {
   text-align: center;
   max-width: 50rem;
   margin: auto;
@@ -260,6 +264,7 @@ body {
 .interest .row .interest-card .interest-card-title {
   margin: 1rem auto 0.5rem;
 }
+/*experience section*/
 .experience {
   padding-bottom: 20rem;
   padding-top: 10rem;
@@ -274,7 +279,28 @@ body {
   font-weight: 800;
   line-height: 1.6;
 }
+/*award section*/
+.award .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: space-around;
+}
 
+.award .row .award-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.award .row .award-card img {
+  border-radius: 100%;
+  width: 20rem;
+  height: 20rem;
+}
+
+.award .row .award-card .award-card-title {
+  margin: 1rem auto 0.5rem;
+}
 /* Footer */
 footer {
   background-color: var(--primary);
