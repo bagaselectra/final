@@ -129,7 +129,8 @@ body {
 .about h2,
 .education h2,
 .skill h2,
-.interest h2 {
+.interest h2,
+.experience h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -138,7 +139,8 @@ body {
 .about h2 span,
 .education h2 span,
 .skill h2 span,
-.interest h2 span {
+.interest h2 span,
+.experience h2 span {
   color: var(--primary);
 }
 
@@ -149,9 +151,8 @@ body {
   flex: 1 1 45rem;
 }
 .about .row .about-img img {
-  width: 30rem;
-  height: 30rem;
-  border: 2px solid black;
+  width: 25rem;
+  height: 25rem;
   border-radius: 100%;
 }
 
@@ -177,16 +178,18 @@ body {
 /* Menu Section */
 .education h2,
 .skill h2,
-.interest h2 {
+.interest h2,
+.experience h2 {
   margin-bottom: 1rem;
 }
 .education p,
 .skill p,
-.interest p {
+.interest p,
+.experience p {
   text-align: center;
   max-width: 50rem;
   margin: auto;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.6;
 }
 
@@ -256,6 +259,20 @@ body {
 
 .interest .row .interest-card .interest-card-title {
   margin: 1rem auto 0.5rem;
+}
+.experience {
+  padding-bottom: 20rem;
+  padding-top: 10rem;
+}
+
+.angka li {
+  padding: 10px;
+  list-style-position: inside;
+  text-align: left;
+  max-width: 50rem;
+  margin: auto;
+  font-weight: 800;
+  line-height: 1.6;
 }
 
 /* Footer */
