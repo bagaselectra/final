@@ -366,7 +366,7 @@ footer .credit a {
     right: -100%;
     background-color: var(--primary);
     width: 30rem;
-    height: 46vh;
+    height: 100vh;
     transition: 0.3s;
   }
 
